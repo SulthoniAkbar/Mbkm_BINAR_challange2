@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/ivOfficialStore"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_officialstore"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvOfficialStore"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:text="Official Store"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivOfficialStore" />
+
+    <ImageView
+        android:id="@+id/ivElectronic"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/ic_hobby"
+        app:layout_constraintLeft_toRightOf="@+id/ivOfficialStore"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvElectronic"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Elektronik"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintLeft_toRightOf="@+id/tvOfficialStore"
+        app:layout_constraintTop_toBottomOf="@+id/ivElectronic" />
+
+    <ImageView
+        android:id="@+id/ivGame"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/ic_games"
+        app:layout_constraintLeft_toRightOf="@+id/ivElectronic"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvGame"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Gaming"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintLeft_toRightOf="@+id/tvElectronic"
+        app:layout_constraintTop_toBottomOf="@+id/ivGame" />
+
+    <ImageView
+        android:id="@+id/ivCook"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/ic_cooking"
+        app:layout_constraintLeft_toRightOf="@+id/ivGame"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvCook"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Dapur"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintLeft_toRightOf="@+id/tvGame"
+        app:layout_constraintTop_toBottomOf="@+id/ivCook" />
+
+    <ImageView
+        android:id="@+id/ivAccessories"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/ic_accessories"
+        app:layout_constraintLeft_toRightOf="@+id/ivCook"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvAccessories"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Dapur"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintLeft_toRightOf="@+id/tvCook"
+        app:layout_constraintTop_toBottomOf="@+id/ivAccessories" />
+
+    <ImageView
+        android:id="@+id/ivCamera"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/ic_camera"
+        app:layout_constraintLeft_toRightOf="@+id/ivAccessories"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvCamera"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Dapur"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintLeft_toRightOf="@+id/tvAccessories"
+        app:layout_constraintTop_toBottomOf="@+id/ivCamera" />
+
+    <ImageView
+        android:id="@+id/ivBook"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/ic_book"
+        app:layout_constraintLeft_toRightOf="@+id/ivCamera"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvBook"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Book"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintLeft_toRightOf="@+id/tvCamera"
+        app:layout_constraintTop_toBottomOf="@+id/ivBook" />
+</androidx.constraintlayout.widget.ConstraintLayout>

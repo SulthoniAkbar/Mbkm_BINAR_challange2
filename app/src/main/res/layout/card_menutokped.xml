@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/ivPeduliLindungi"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ic_peduli"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvPeduliLindungi"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:text="Peduli Lindungi"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivPeduliLindungi" />
+
+    <ImageView
+        android:id="@+id/ivBazar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="60dp"
+        android:src="@drawable/ic_bazar"
+        app:layout_constraintLeft_toRightOf="@+id/ivPeduliLindungi"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tbBazar"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Bazar Hari Ini"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintLeft_toRightOf="@+id/tvPeduliLindungi"
+        app:layout_constraintTop_toBottomOf="@+id/ivBazar" />
+
+    <ImageView
+        android:id="@+id/ivLiveShop"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="60dp"
+        android:src="@drawable/ic_liveshop"
+        app:layout_constraintLeft_toRightOf="@+id/ivBazar"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvLiveShop"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Live Shopping"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintLeft_toRightOf="@+id/tbBazar"
+        app:layout_constraintTop_toBottomOf="@+id/ivLiveShop" />
+
+    <ImageView
+        android:id="@+id/ivGamesTokped"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="60dp"
+        android:src="@drawable/ic_gametokped"
+        app:layout_constraintLeft_toRightOf="@+id/ivLiveShop"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvGamesTokped"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Tokopedia Seru"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintLeft_toRightOf="@+id/tvLiveShop"
+        app:layout_constraintTop_toBottomOf="@+id/ivGamesTokped" />
+
+    <ImageView
+        android:id="@+id/ivHeart"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="60dp"
+        android:src="@drawable/ic_heart"
+        app:layout_constraintLeft_toRightOf="@+id/ivGamesTokped"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvHeart"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Dapur"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintLeft_toRightOf="@+id/tvGamesTokped"
+        app:layout_constraintTop_toBottomOf="@+id/ivHeart" />
+
+    <ImageView
+        android:id="@+id/ivCOD"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="60dp"
+        android:src="@drawable/ic_cod"
+        app:layout_constraintLeft_toRightOf="@+id/ivHeart"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvCOD"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:text="Bayar di Tempat"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintLeft_toRightOf="@+id/tvHeart"
+        app:layout_constraintTop_toBottomOf="@+id/ivCOD" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
